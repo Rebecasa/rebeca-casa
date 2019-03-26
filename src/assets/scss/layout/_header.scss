@@ -206,6 +206,11 @@
 				height: 4.75rem;
 				line-height: 4.75rem;
 
+      .profilePic {
+        width: 4.5rem;
+        border-radius: 50%;
+      }
+
 				.icon {
 					&:before {
 						font-size: 1.75rem;
