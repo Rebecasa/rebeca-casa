@@ -15,7 +15,6 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
-          <span className="image main"><img src={pic01} alt="" /></span>
           <p>2 years working in Michelin Star restaurants taught me a lot -
               how to deal with intense stress, tight deadlines & how to work in a team. <br/>
                   <br/>
@@ -29,7 +28,6 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
           <p><strong>Owner, Baersilien Cafe-Berlin, Germany </strong> <br/>
             01/2018- Today<br/>
             Responsible for the menu, marketing, events & finances of a family business in Berlin,
