@@ -48,10 +48,10 @@
 		}
 
 		.logo {
-			width: 5.5rem;
-			height: 5.5rem;
+			width: 9.5rem;
+			height: 9.5rem;
 			line-height: 5.5rem;
-			border: solid _size(border-width) _palette(border);
+			border: solid _size(border-width-thicker) _palette(border);
 			border-radius: 100%;
 
 			.icon {
@@ -60,6 +60,11 @@
 				}
 			}
 		}
+
+    .profilePic {
+      width: 9.2rem;
+      border-radius: 50%;
+    }
 
 		.content {
 			border-style: solid;
