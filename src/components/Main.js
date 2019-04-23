@@ -28,8 +28,17 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
+           <p><strong> Internship, Landaio-Berlin, Germany </strong> <br/>
+            03/2019 -Today<br/>
+            Technical lead in an early stage startup, working closely with the
+            founders to set up data analytics, A/B testing & a new Reactbased web platform.<br/>
+          <p><strong>Internship, Scribe App-Berlin, Germany </strong> <br/>
+            12/2018 - 02/2019<br/>
+            I took the initiative to work with the founders on a new React
+            project to gain some product development & React experience
+            after finishing the Le Wagon programming course.<br/>
           <p><strong>Owner, Baersilien Cafe-Berlin, Germany </strong> <br/>
-            01/2018- Today<br/>
+            01/2018-01/2019<br/>
             Responsible for the menu, marketing, events & finances of a family business in Berlin,
             requiring creativity & application of my business skills in a new environment to grow revenue. <br/>
             <strong>Chef de Partie, L’ecrivain Restaurant - Dublin, Ireland </strong>  <br/>
