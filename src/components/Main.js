@@ -58,6 +58,7 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Projects</h2>
             <ul>
+              <li><a href="http://www.baersilien.com/">Bärsilien</a></li>
               <li><a href="http://www.pimpyourprint.tech/">Pimp your print</a></li>
               <li><a href="http://toylandia.herokuapp.com/">Toylandia</a></li>
               <li><a href="https://rebeca-cocktails.herokuapp.com/">Mr. Cocktails</a></li>
