@@ -5,6 +5,13 @@
 ///
 
 /* Header */
+.music {
+  width: 60vw;
+}
+
+.cover-letter{
+  margin: 40px;
+}
 
 	#header {
 		@include vendor('display', 'flex');
