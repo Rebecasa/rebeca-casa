@@ -12,6 +12,12 @@
 .cover-letter{
   margin: 40px;
 }
+@media screen and (min-width 768) {
+  .cover-letter{
+  margin: 0px;
+}
+
+}
 
 	#header {
 		@include vendor('display', 'flex');
