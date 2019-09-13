@@ -28,11 +28,19 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
-           <p><strong> Internship, Landaio-Berlin, Germany </strong> <br/>
-            03/2019 -Today<br/>
+           <p><strong>Front end developer - Internship, Landaio-Berlin, Germany </strong> <br/>
+            06/2019 -09/2019<br/>
+            At Blindside, I learnt how to effectively collaborate on a complex, large-scale engineering project,
+            working closely with the CTO and other experienced developers on a React health app.
+            Specifically, I contributed to several pull requests each day, mainly focused on user
+            stories related to React, SCSS & some Redux.<br/>
+            <strong>Internship, Scribe App-Berlin, Germany </strong> <br/>
+            12/2018 - 02/2019<br/><p>
+            <strong>Front end developer - Internship, Landaio-Berlin, Germany </strong> <br/>
+            03/2019 -05/2019<br/>
             Technical lead in an early stage startup, working closely with the
             founders to set up data analytics, A/B testing & a new Reactbased web platform.<br/>
-            <strong>Internship, Scribe App-Berlin, Germany </strong> <br/>
+            <strong>Front end developer - Internship, Scribe App-Berlin, Germany </strong> <br/>
             12/2018 - 02/2019<br/>
             I took the initiative to work with the founders on a new React
             project to gain some product development & React experience
