@@ -37,6 +37,7 @@ class Main extends React.Component {
             so decided to switch to programming back in 2018 & have never looked
             back.
             <br />
+            <br />
             I now live in London, working as a Full-Stack Developer with around
             2 years
             <br />
@@ -54,7 +55,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <p>
-            <strong>Full stack Developer heycater! - Berlin, Germany </strong>
+            <strong>Full stack Developer, heycater! - Berlin, Germany </strong>
             <br />
             11/2019 - Present
             <br />
